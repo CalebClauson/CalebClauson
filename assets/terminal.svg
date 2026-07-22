@@ -1,1 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="660" viewBox="0 0 1100 660">
+  <rect width="1100" height="660" rx="18" fill="#050805"/>
+  <rect x="1.5" y="1.5" width="1097" height="657" rx="16.5" fill="none" stroke="#20ff6b" stroke-width="3"/>
 
+  <circle cx="32" cy="30" r="7" fill="#20ff6b" opacity="0.95"/>
+  <circle cx="56" cy="30" r="7" fill="#20ff6b" opacity="0.55"/>
+  <circle cx="80" cy="30" r="7" fill="#20ff6b" opacity="0.25"/>
+
+  <style>
+    .text {
+      font-family: "Courier New", Consolas, monospace;
+      fill: #20ff6b;
+      font-size: 24px;
+    }
+    .dim {
+      fill: #10b94c;
+    }
+    .bright {
+      fill: #8cffad;
+      font-weight: 700;
+    }
+    .small {
+      font-size: 21px;
+    }
+    .cursor {
+      animation: blink 1s steps(1) infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <text x="30" y="78" class="text bright">caleb@github:~$ whoami</text>
+  <text x="30" y="116" class="text">Caleb Clauson</text>
+  <text x="30" y="150" class="text">Software Developer | Python | Flask | SQLite</text>
+
+  <text x="30" y="205" class="text bright">caleb@github:~$ cat about.txt</text>
+  <text x="30" y="243" class="text small">I build practical software focused on backend logic,</text>
+  <text x="30" y="274" class="text small">databases, authentication, and real-world workflows.</text>
+
+  <text x="30" y="329" class="text bright">caleb@github:~$ ls -la projects/</text>
+  <text x="30" y="367" class="text small dim">drwxr-xr-x  schedule-app/</text>
+  <text x="430" y="367" class="text small">Flask scheduling system</text>
+  <text x="30" y="400" class="text small dim">drwxr-xr-x  text-rpg/</text>
+  <text x="430" y="400" class="text small">Python + Tkinter RPG</text>
+
+  <text x="30" y="455" class="text bright">caleb@github:~$ cat stack.txt</text>
+  <text x="30" y="493" class="text small">Python  Flask  SQLite  HTML  CSS  JavaScript  Git</text>
+
+  <text x="30" y="548" class="text bright">caleb@github:~$ cat status.txt</text>
+  <text x="30" y="586" class="text small">Building, learning, and preparing for an entry-level role.</text>
+
+  <text x="30" y="630" class="text bright">caleb@github:~$</text>
+  <rect x="255" y="608" width="15" height="25" fill="#20ff6b" class="cursor"/>
+</svg>
