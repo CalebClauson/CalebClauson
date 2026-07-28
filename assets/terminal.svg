@@ -45,7 +45,7 @@
   <text x="430" y="400" class="text small">Python + Tkinter RPG</text>
 
   <text x="30" y="455" class="text bright">caleb@github:~$ cat stack.txt</text>
-  <text x="30" y="493" class="text small">Python  Flask  SQLite  HTML  CSS  JavaScript  Git</text>
+  <text x="30" y="493" class="text small">Python   SQLite  HTML  CSS  JavaScript  Git</text>
 
   <text x="30" y="548" class="text bright">caleb@github:~$ cat status.txt</text>
   <text x="30" y="586" class="text small">Building, learning, and preparing for an entry-level role.</text>
