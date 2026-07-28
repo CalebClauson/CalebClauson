@@ -32,7 +32,7 @@
 
   <text x="30" y="78" class="text bright">caleb@github:~$ whoami</text>
   <text x="30" y="116" class="text">Caleb Clauson</text>
-  <text x="30" y="150" class="text">Software Developer | Python | Flask | SQLite</text>
+  <text x="30" y="150" class="text">Software Developer | Python | SQLite</text>
 
   <text x="30" y="205" class="text bright">caleb@github:~$ cat about.txt</text>
   <text x="30" y="243" class="text small">I build practical software focused on backend logic,</text>
